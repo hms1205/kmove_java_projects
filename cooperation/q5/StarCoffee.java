@@ -8,4 +8,7 @@ public class StarCoffee {
 		this.money += money;
 	}
 
+	public void showInfo() {
+		System.out.println("¼öÀÔ : " + money);
+	}
 }

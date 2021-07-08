@@ -15,6 +15,7 @@ public class Person {
 		if(this.money >= 4000) {
 			this.money -= 4000;
 			System.out.println(this.name + "님이 4000원으로 별다방 아메리카노를 구입했습니다.");
+			starCoffee.showInfo();
 		} else {
 			System.out.println(this.name + "님이 " + this.money + "원으로 돈이 부족하여 아메리카노를 마실 수가 없어요~ ㅠㅠ");
 		}
@@ -26,6 +27,7 @@ public class Person {
 		if(this.money >= 4500) {
 			this.money -= 4500;
 			System.out.println(this.name + "님이 4500원으로 콩다방 라떼를 구입했습니다.");
+			beanCoffee.showInfo();
 		} else {
 			System.out.println(this.name + "님이 " + this.money + "원으로 돈이 부족하여 라떼를 마실 수가 없어요~ ㅠㅠ");
 		}
