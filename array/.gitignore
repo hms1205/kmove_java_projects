@@ -4,3 +4,10 @@
 /BookArray.class
 /Book.class
 /ArrayCopy.class
+/ShallowCopy.class
+/DeepCopy.class
+/EnhancedFor.class
+/TwoDemensionArray.class
+/Student.class
+/Subject.class
+/StudentSubjectTest.class
