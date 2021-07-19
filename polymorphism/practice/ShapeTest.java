@@ -31,6 +31,11 @@ public class ShapeTest {
 		for(Shape s : list) {
 			s.draw();
 		}
+		
+		for (int i = 0; i < list.size(); i++) {
+			Shape shape = list.get(i);
+			shape.draw();
+		}
 	}
 
 }

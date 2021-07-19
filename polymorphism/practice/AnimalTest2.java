@@ -50,7 +50,6 @@ public class AnimalTest2 {
 	ArrayList<Animal> animalList = new ArrayList<Animal>();
 	public static void main(String[] args) {
 		AnimalTest2 aniTest = new AnimalTest2();
-		aniTest.addAnimal();
 		System.out.println("====");
 		aniTest.updownCasting();
 		
