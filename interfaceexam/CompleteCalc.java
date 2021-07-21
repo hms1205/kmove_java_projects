@@ -2,6 +2,11 @@ package interfaceexam;
 
 public class CompleteCalc extends Calculator {
 
+//	@Override
+//	public void describe() {
+//		System.out.println("완벽한 점수 계산기를 구현했습니다...");
+//	}
+
 	@Override
 	public int multiply(int num1, int num2) {
 		return num1 * num2;
