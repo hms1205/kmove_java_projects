@@ -1,6 +1,6 @@
 package collection;
 
-public class Member {
+public class Member implements Comparable<Member>{
 	private int memberID;
 	private String memberName;
 	
@@ -29,6 +29,12 @@ public class Member {
 	public String toString() {
 		return "아이디가 " + memberID + "인 회원은" + memberName + "입니다.";
 	}
+
+	@Override
+	public int compareTo(Member member) {
+		return this.memberName.compareTo(member.memberName);
+	}
+	
 	
 	
 }
