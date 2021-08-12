@@ -4,3 +4,8 @@
 /AutoCloseObject.class
 /AutoCloseableTest.class
 /ThrowsException.class
+/IDFormat.class
+/IDFormatException.class
+/NotExistException.class
+/WrongPasswordException.class
+/login.class
